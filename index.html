@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/less/preloader.css">
+
+</head>
+<body>
+
+    <header>
+        <img src="Images/VividVoyage-logo.svg" class="logo">
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </nav>
+        <button class="contact-us">Contact</button>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+    </header>
+
+    <nav class="mobile-nav ">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+       
+    </nav>
+  
+    
+    <div class="Home" id="home">
+        <div class="home-container1">
+        <h1>Welcome to VividVoyage</h1>
+        <p>Embark on a Journey Through Captivating Imagery</p>
+        </div>
+        <div class="home-container2">
+            <img src="Images/First Image.avif" alt="image2" class="first-image">
+        </div>
+    </div>
+    <div class="about-us" id="about">
+        <div class="about-photo">
+            <img src="Images/about-image.avif" alt="about-image" class="about-image">
+        </div>
+        <div class="about-description">
+            <h1>At VividVoyage, we believe that every image tells a story waiting to be explored. Our mission is to take you on a visual adventure where you can lose yourself in the world of stunning photography and capture the essence of the moment.</h1>
+        </div>
+    </div>
+    <div class="image-app" id="services">
+    <h1>Find what you are looking for...</h1>
+    <form action="">
+        <input type="text" id="search-input" placeholder="Search for Images">
+        <button id="search-button">Search</button>
+    </form>
+    <div class="image-container">
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80" alt="Mountains">
+            <a href="https://unsplash.com/s/photos/space" target="_blank">Space</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80" alt="Mountains">
+            <a href="https://unsplash.com/s/photos/cars"
+             target="_blank">Cars</a>
+        </div>
+        <div class="search-result">
+            <img src="https://images.unsplash.com/photo-1477764250597-dffe9f601ae8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80" alt="Mountains">
+            <a href="https://unsplash.com/s/photos/animals" target="_blank">Animals</a>
+        </div>
+    </div>
+    </div>
+
+    <button id="show-more-button">Show More</button>
+    </div>
+    <script src="script.js"></script>
+<footer id="contact">
+    <div class="logo1">
+        <img src="Images/VividVoyage-logo.svg" alt="" class="logo">
+    </div>
+    <div>
+        <h1>Location</h1>
+        <p>Dubai</p>
+        <p>Kosovo</p>
+        <p>Germany</p>
+    </div>
+    <div>
+        <h1>Contact</h1>
+        <p>leart.tytyri1@gmail.com</p>
+        <p>+383 49 987 005</p>
+    </div>
+    <div>
+        <h1>Designed by:</h1>
+        <p>Leart Tytyri</p>
+    </div>
+</footer>
+</body>
+</html>
