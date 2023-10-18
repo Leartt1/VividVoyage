@@ -261,7 +261,8 @@ footer{
         height: 340px;
     }
     .about-description h1{
-        width: 96%;
+        width: 100%;
+        text-align: center;
     }
     footer{
         flex-direction: column;
